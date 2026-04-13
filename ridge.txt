@@ -1,0 +1,8 @@
+Case:
+Videocard: 
+CPU: 
+RAM:
+SSD: 
+Motherboard:
+Cooling:
+Power Supply: 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC Builds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app">
+    <section class="topbar">
+      <h1>PC builds</h1>
+      <button id="newBuildButton" class="button button-primary" type="button">Новая сборка</button>
+    </section>
+
+    <section class="builds-section">
+      <div class="section-head">
+        <h2>Сборки</h2>
+      </div>
+      <div class="compare-guide" aria-hidden="true">
+        <span>Компонент</span>
+        <span>Модель</span>
+        <span>Цена</span>
+      </div>
+      <div id="buildList" class="build-list"></div>
+    </section>
+  </div>
+
+  <div id="modalOverlay" class="modal-overlay" hidden>
+    <section class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-top">
+        <h2 id="modalTitle">Сборка</h2>
+        <button id="closeModalButton" class="button button-ghost" type="button">Закрыть</button>
+      </div>
+
+      <form id="buildForm" class="build-form">
+        <div class="title-row">
+          <label class="field">
+            <span>Название</span>
+            <input type="text" name="name" placeholder="Например, White Blue 5070">
+          </label>
+          <div class="total-box">
+            <span>Total</span>
+            <strong id="totalPrice">0 ₽</strong>
+          </div>
+        </div>
+
+        <div id="componentGrid" class="component-grid"></div>
+
+        <div class="action-row">
+          <button id="cancelModalButton" class="button button-ghost" type="button">Отмена</button>
+          <button class="button button-primary" type="submit">Сохранить</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <template id="componentEditorTemplate">
+    <article class="component-editor">
+      <div class="component-head">
+        <h3></h3>
+      </div>
+      <label class="field">
+        <span>Модель</span>
+        <input type="text" data-field="name" placeholder="Модель">
+      </label>
+      <div class="component-subgrid">
+        <label class="field">
+          <span>Цена</span>
+          <input type="number" data-field="price" min="0" step="1" placeholder="0">
+        </label>
+        <label class="field">
+          <span>Ссылка</span>
+          <input type="url" data-field="url" placeholder="https://...">
+        </label>
+      </div>
+    </article>
+  </template>
+
+  <script src="./app.js"></script>
+</body>
+</html>

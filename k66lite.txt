@@ -1,0 +1,8 @@
+Case:
+Videocard: RTX 5070 - 52 275 (https://www.wildberries.ru/catalog/677117349/detail.aspx?size=911673792)
+CPU: 
+RAM:
+SSD: 
+Motherboard:
+Cooling:
+Power Supply: 
