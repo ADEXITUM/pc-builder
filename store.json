@@ -1,0 +1,110 @@
+[
+    {
+        "id": "775ac2cc-6533-4a6e-8b94-e2a7b2af78a7",
+        "name": "Shiny Snake S400 v2",
+        "components": {
+            "case": {
+                "name": "Shiny Snake v2",
+                "price": 7338,
+                "url": "https://www.ozon.ru/search/?text=shiny+snake+v2&from_global=true",
+                "purchased": false
+            },
+            "videocard": {
+                "name": "RTX 5080 Aero",
+                "price": 135000,
+                "url": "https://www.ozon.ru/product/gigabyte-videokarta-geforce-rtx-5080-aero-oc-sff-16-gb-gv-n5080aero-oc-16gd-2016776375/?at=Rltylz56kTENMnVzugwmxRrFOZ06QGsPn8r1DHjQLJQ3",
+                "purchased": false
+            },
+            "cpu": {
+                "name": "R7 9800x 3D",
+                "price": 33623,
+                "url": "https://www.wildberries.ru/catalog/575336988/detail.aspx",
+                "purchased": false
+            },
+            "ram": {
+                "name": "G.Skill RipJaws S5 64GB",
+                "price": 48000,
+                "url": "",
+                "purchased": true
+            },
+            "ssd": {
+                "name": "Kingston 1TB",
+                "price": 15000,
+                "url": "https://www.ozon.ru/product/kingston-1-tb-vnutrenniy-ssd-disk-nv3-m-2-pci-e-4-0-snv3s-1000gcn-2613914144/",
+                "purchased": false
+            },
+            "motherboard": {
+                "name": "MSI MPG B650I EDGE WIFI AM5 DDR5",
+                "price": 14896,
+                "url": "https://www.ozon.ru/product/msi-mpg-b650i-edge-wifi-am5-ddr5-materinskaya-plata-1637460188/",
+                "purchased": false
+            },
+            "cooling": {
+                "name": "ThermalRight AXP120-X67 WHITE",
+                "price": 4500,
+                "url": "https://www.ozon.ru/product/thermalright-axp120-x67-white-argb-radiator-s-nishodyashchim-potokom-vozduha-2838022418/?at=QktJqyoQEcxZA9WBTKr0Lomt3AyR1PFVkv79XuyW95GA",
+                "purchased": false
+            },
+            "powerSupply": {
+                "name": "1stPlayer 850W SFX",
+                "price": 13765,
+                "url": "https://www.ozon.ru/product/1stplayer-blok-pitaniya-kompyutera-blok-pitaniya-850w-1stplayer-sfx-ps-850sfx-wh-white-850-vt-ps-3553553452/",
+                "purchased": false
+            }
+        }
+    },
+    {
+        "id": "be24a118-af8d-45cb-b40a-28f399f0ce4a",
+        "name": "k66 / с24",
+        "components": {
+            "case": {
+                "name": "SGPC k66 lite",
+                "price": 5200,
+                "url": "https://www.ozon.ru/product/kompyuternyy-korpus-k66lite-prozrachnyy-2127177910/",
+                "purchased": false
+            },
+            "videocard": {
+                "name": "KFA RTX 5070 CORE OC 2FAN LED White",
+                "price": 64999,
+                "url": "https://www.dns-shop.ru/product/7ea65bf902cfd9cb/videokarta-kfa2-geforce-rtx-5070-core-oc-2fan-led-white-57non7mdbswk/",
+                "purchased": false
+            },
+            "cpu": {
+                "name": "R7 9800x 3D",
+                "price": 33623,
+                "url": "https://www.wildberries.ru/catalog/575336988/detail.aspx",
+                "purchased": false
+            },
+            "ram": {
+                "name": "G.Skill RipJaws S5 64GB",
+                "price": 48000,
+                "url": "",
+                "purchased": true
+            },
+            "ssd": {
+                "name": "Kingston 1TB",
+                "price": 15000,
+                "url": "https://www.ozon.ru/product/kingston-1-tb-vnutrenniy-ssd-disk-nv3-m-2-pci-e-4-0-snv3s-1000gcn-2613914144/",
+                "purchased": false
+            },
+            "motherboard": {
+                "name": "MSI MPG B850I EDGE TI WIFI белая но +10к",
+                "price": 25000,
+                "url": "https://www.ozon.ru/product/msi-mpg-b850i-edge-ti-wifi-amd-b850-am5-ddr5-materinskaya-plata-3154347525/?at=GRt2lMZQxcB8z96miAvkKkEHgZvyGXFn2D2mEhpyl58m",
+                "purchased": false
+            },
+            "cooling": {
+                "name": "Thermalright Peerless Assassin 120 MINI",
+                "price": 3500,
+                "url": "https://www.dns-shop.ru/product/8c7cab96dfaad21a/kuler-dla-processora-thermalright-peerless-assassin-120-mini-white-pa120-mini-wh-belyj/",
+                "purchased": false
+            },
+            "powerSupply": {
+                "name": "1stPlayer 850W SFX",
+                "price": 13765,
+                "url": "https://www.ozon.ru/product/1stplayer-blok-pitaniya-kompyutera-blok-pitaniya-850w-1stplayer-sfx-ps-850sfx-wh-white-850-vt-ps-3553553452/",
+                "purchased": false
+            }
+        }
+    }
+]
